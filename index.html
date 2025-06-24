@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teksene – Accélérez vos décisions grâce à des données fiables</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="ressources/images/logo.png">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__container">
+      <img src="ressources/images/logo.png" alt="Teksene" class="logo">
+      <nav class="nav">
+        <ul>
+          <li><a href="#services" class="nav__link">Nos services</a></li>
+          <li><a href="#methodologie" class="nav__link">Méthodologie</a></li>
+          <li><a href="#equipe" class="nav__link">Équipe</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <h1>Accélérez vos décisions grâce à des données fiables</h1>
+      <p>
+        Définir une stratégie data n’est plus un luxe, c’est une nécessité.
+        Chez Teksene, nous vous accompagnons pas à pas pour structurer vos données, les valoriser et les exploiter
+        efficacement.
+        
+      </p>
+      <p>Notre objectif : transformer vos données en un véritable levier de performance et de prise de décision.</p>
+      <a href="#contact" class="btn btn--primary">Demander un diagnostic gratuit</a>
+    </div>
+  </section>
+
+  <!-- Nos Services -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Nos services</h2>
+      <div class="services__list">
+        <div class="service">
+          <div class="service__icon"><span>📊</span></div>
+          <h3>Collecte de données/Strategie</h3>
+        </div>
+        <div class="service">
+          <div class="service__icon"><span>🧹</span></div>
+          <h3>Nettoyage / structuration</h3>
+        </div>
+        <div class="service">
+          <div class="service__icon"><span>📈</span></div>
+          <h3>Dashboards (Excel,Tableau, Power BI)</h3>
+        </div>
+        <div class="service">
+          <div class="service__icon"><span>🎓</span></div>
+          <h3>Formation à l'analyse des données</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Méthodologie -->
+  <section class="methodologie" id="methodologie">
+    <div class="container">
+      <h2>Méthodologie</h2>
+      <div class="methodologie__steps">
+        <div class="step">
+          <div class="step__number">1</div>
+          <h3>Diagnostic gratuit</h3>
+        </div>
+        <div class="step">
+          <div class="step__number">2</div>
+          <h3>Collecte et nettoyage</h3>
+        </div>
+        <div class="step">
+          <div class="step__number">3</div>
+          <h3>Visualisation via dashboards</h3>
+        </div>
+        <div class="step">
+          <div class="step__number">4</div>
+          <h3>Formation et autonomie</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Équipe -->
+  <section class="equipe" id="equipe">
+    <div class="container">
+      <h2>Notre équipe</h2>
+      <div class="equipe__list">
+        <div class="membre">
+          <img src="ressources/images/ali.jpg" alt="Ali Houssene Silahi" class="membre__photo">
+          <h3>Ali Houssene Silahi</h3>
+          <p>Entrepreneur Tech</p>
+        </div>
+        <div class="membre">
+          <img src="ressources/images/elhaswar.jpg" alt="Elhaswar Silahi" class="membre__photo">
+          <h3>Elhaswar Silahi</h3>
+          <p>Designer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contactez-nous</h2>
+      <form class="contact__form" id="contactForm" autocomplete="off">
+        <div class="form__group">
+          <label for="nom">Nom</label>
+          <input type="text" id="nom" name="nom" required>
+        </div>
+        <div class="form__group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form__group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <div class="form__group">
+          <label id="antiRobotLabel" for="antiRobot">Anti-robot : <span id="antiRobotQuestion"></span></label>
+          <input type="text" id="antiRobot" name="antiRobot" required autocomplete="off">
+        </div>
+        <button type="submit" class="btn btn--primary">Envoyer</button>
+        <div id="formMessage" class="form__message"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <span>&copy; 2024 Teksene. Tous droits réservés.</span>
+      <a href="https://www.linkedin.com/company/teksene" target="_blank" rel="noopener"
+        class="footer__linkedin">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
